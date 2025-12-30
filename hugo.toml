@@ -1,0 +1,47 @@
+baseURL = 'https://avvlacogullada.org/'
+languageCode = 'ca'
+title = 'AVV La Cogullada'
+theme = 'ananke'
+
+sectionPagesMenu = 'main'
+pagerSize = 5
+
+defaultContentLanguage = 'ca'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+disableLanguages = []
+
+mainSections = ["activitats-fixes", "esdeveniments", "publicacions"]
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+text_color = ""
+author = ""
+favicon = ""
+site_logo = "logo_rodo_peque.jpg"
+description = "Associació de veïns i veïnes de la Cogullada."
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-dark-blue"
+recent_posts_number = 5
+
+[params.ananke.social.follow]
+new_window_icon = false
+networks = [
+  "instagram"
+]
+[params.ananke.social.instagram]
+username = "avvlacogullada"
+
+
+[languages]
+  [languages.ca]
+    disabled = false
+    languageCode = 'ca'
+    languageDirection = ''
+    languageName = 'Català'
+    # title = ''
+    weight = 0
