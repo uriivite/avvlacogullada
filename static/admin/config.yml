@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: uriivite/avvlacogullada # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
+
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: about
+    label: "Sobre nosaltres"
+    folder: "content/about"
+    create: false
+    format: "toml-frontmatter"
+    fields:
+      - { label: "Text", name: "body", widget: "markdown" }
