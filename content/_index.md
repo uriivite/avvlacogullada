@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = 'AVV La Cogullada'
 description = 'Pàgina en manteniment.'
 summary = 'Pàgina en manteniment.'
