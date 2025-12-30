@@ -14,4 +14,33 @@ collections:
     create: false
     format: "toml-frontmatter"
     fields:
+      - { label: "Borrador", name: "draft", widget: "boolean" }
+      - { label: "Text", name: "body", widget: "markdown" }
+  - name: contacte
+    label: "Contacte"
+    folder: "content/contacte"
+    create: false
+    format: "toml-frontmatter"
+    fields:
+      - { label: "Borrador", name: "draft", widget: "boolean" }
+      - { label: "Text", name: "body", widget: "markdown" }
+  - name: activitats
+    label: "Activitats"
+    folder: "content/activitats-fixes"
+    create: true
+    format: "toml-frontmatter"
+    fields:
+      - { label: "Borrador", name: "draft", widget: "boolean" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Text", name: "body", widget: "markdown" }
+  - name: esdeveniments
+    label: "Esdeveniments"
+    folder: "content/esdeveniments"
+    create: true
+    format: "toml-frontmatter"
+    fields:
+      - { label: "Borrador", name: "draft", widget: "boolean" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Títol", name: "title", widget: "string" }
       - { label: "Text", name: "body", widget: "markdown" }
