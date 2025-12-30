@@ -45,3 +45,7 @@ username = "avvlacogullada"
     languageName = 'Català'
     # title = ''
     weight = 0
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
