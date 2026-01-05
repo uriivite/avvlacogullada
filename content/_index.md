@@ -5,4 +5,4 @@ description = 'Pàgina en manteniment.'
 summary = 'Pàgina en manteniment.'
 +++
 
-Benvingudes a la pàgina web de l'Associació de veïnsi veïnes del barri de la Cogullada de Terrassa.
+Benvingudes a la pàgina web de l'Associació de veïns i veïnes del barri de la Cogullada de Terrassa.
