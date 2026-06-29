@@ -1,6 +1,6 @@
 +++
 # date = '2026-01-04T21:44:02+01:00'
-draft = true
+draft = false
 title = 'Patinatge'
 +++
 

@@ -1,7 +1,7 @@
 +++
 draft = false
-type = "page"
 title = "Sobre nosaltres"
+menu = 'main'
 +++
 
 L’Associació de Veïns de la Cogullada va néixer l’any 1978, just després de la mort de Franco.
